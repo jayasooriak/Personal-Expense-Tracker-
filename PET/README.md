@@ -68,7 +68,7 @@ For Hardware:
 *Add caption explaining the schematic*
 
 # Build Photos
-![Team](Add photo of your team here)
+![Falconz](https://drive.google.com/file/d/1Wzls-TNzxfzJBK-dV_X_rhFIqtYEIcLv/view?usp=drive_link)
 
 
 ![Components](Add photo of your components here)
@@ -82,8 +82,8 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[https://drive.google.com/file/d/1TC238kmkKEK8nW00odP4AXM326BU9IHi/view?usp=drive_link]
+
 
 # Additional Demos
 [Add any extra demo materials/links]
