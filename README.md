@@ -12,6 +12,7 @@
 
 ### Hosted Project Link
 README.md
+[ https://jayasooriak.github.io/Personal-Expense-Tracker-/]
 
 ### Project Description
 Our project is about savings of our expenditure in a productive way,It is named as PET which stands for Personal Expense Tracker.
@@ -89,9 +90,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Arja J Nair]: [HTML]
+- [Hrithika Prathap]: [JS]
+- [Jayasooria.K]: [CSS]
 
 ---
 Made with ❤️ at TinkerHub
