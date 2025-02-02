@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PET Expense Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo-container">
+      <img src="apj-img.png" alt="PET Logo" class="logo-icon">
+      <div class="logo-text">PET</div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="header">
+    <div class="transition-screen" id="transition-screen">
+      Money doesn’t grow on trees, but lucky for you, PET is here.
+    </div>
+    <div class="content-container" id="content-container">
+      <div id="pet-logo" class="font-pet" onclick="refreshPage()">PET</div>
+      <button class="add-expense-btn" onclick="goToAddExpense()">+ Add Expense</button>
+    </div>
+  </header>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>&copy; 2025 PET Expense Tracker</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
