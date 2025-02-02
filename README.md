@@ -69,7 +69,7 @@ For Hardware:
 *Add caption explaining the schematic*
 
 # Build Photos
-![Falconz](https://drive.google.com/file/d/1Wzls-TNzxfzJBK-dV_X_rhFIqtYEIcLv/view?usp=drive_link)
+![Falconz](Falconz.jpeg)
 
 
 ![Components](Add photo of your components here)
