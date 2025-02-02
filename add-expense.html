@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <div class="background-gradient"></div> <!-- Gradient background -->
+  <div class="glass-container">
+    <!-- Bank Roll Section -->
+    <div class="bank-roll">
+      <h2><i class="fas fa-wallet"></i> Bank Roll</h2>
+      <input type="number" id="total-budget" placeholder="Enter total budget">
+      <button onclick="updateBudget()">Update Budget</button>
+      <p>Remaining: <span id="remaining-budget">0</span></p>
+      <h2><i class="fas fa-exclamation-circle"></i> Set Alert Threshold</h2>
+      <input type="number" id="alert-threshold" placeholder="Alert Threshold">
+      <button onclick="setAlertThreshold()">Set Alert</button>
+    </div>
+
+    <!-- Expense Section -->
+    <div class="expense-section">
+      <h2><i class="fas fa-coins"></i> Add Expense</h2>
+      <input type="text" id="expense-name" placeholder="Item name">
+      <input type="number" id="expense-amount" placeholder="Amount">
+      <button onclick="addExpense()">Add Expense</button>
+
+      <!-- Expense List -->
+      <div id="expense-list"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

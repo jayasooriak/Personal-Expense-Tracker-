@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: black;
+      min-height: 100vh;
+    }
+    .container {
+      flex: 3;
+      background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent container */
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px;
+    }
+    .sidebar {
+      flex: 1;
+      background-color: rgba(0, 0, 0, 0.5); /* Darker transparent background for sidebar */
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px;
+      height: 100vh; /* Adjust the height to make the sidebar longer */
+      overflow-y: auto; /* Add scroll if content exceeds the height */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p>
+      A personal expense tracker app helps users manage their finances by categorizing expenses, setting budgets, and tracking progress. While it doesn't sync with bank accounts, users can manually input their transactions, set financial goals, receive alerts for bill payments and budget limits, generate insightful reports, support multiple users for collaborative budgeting, and ensure data security.
+    </p>
+    <img src="about-img.jpeg" alt="Expense Tracker Image">
+  </div>
+
+  <div class="sidebar">
+    <h2>Contact Us</h2>
+    <p>Email: pet@gmail.com</p>
+    <p>Phone: +91-123-456-7890</p>
+    <p>Address:</p>
+    <p>CEMP,<br>Alappuzha, IN 123456</p>
+  </div>
+</body>
+</html>
