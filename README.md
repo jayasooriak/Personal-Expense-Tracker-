@@ -90,9 +90,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Arja J Nair]: [HTML]
-- [Hrithika Prathap]: [JS]
-- [Jayasooria.K]: [CSS]
+- [Arja J Nair]: [ HTML ]
+- [Hrithika Prathap]: [ JS ]
+- [Jayasooria.K]: [ CSS ]
 
 ---
 Made with ❤️ at TinkerHub
